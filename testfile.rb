@@ -31,5 +31,5 @@ end
 
 # combien de jours depuis ta naissance
 require 'date'
-datej = Date.today - DateTime.new(1958,5,17)
+datej = Date.today - DateTime.new(1970,9,29)
 puts datej.to_i
